@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-sand-100 text-ink font-body antialiased; }
+  h1, h2, h3 { font-family: '"Bebas Neue"', sans-serif; letter-spacing: 0.02em; }
+  :focus-visible { outline: 3px solid #D4A24E; outline-offset: 2px; }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-gold;
+  }
+  .section-title {
+    @apply font-display text-5xl sm:text-6xl leading-[0.9] text-pitch-950;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-flame hover:bg-flame-600 text-white font-heading font-semibold
+           px-5 py-3 rounded-md transition-colors duration-150 shadow-card;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 border border-white/25 hover:border-gold text-white
+           font-heading font-medium px-5 py-3 rounded-md transition-colors duration-150;
+  }
+  .chip {
+    @apply inline-flex items-center justify-center w-9 h-9 rounded-full font-mono font-semibold text-sm;
+  }
+  .chip-win  { @apply chip bg-green-100 text-green-600; }
+  .chip-draw { @apply chip bg-sky-100 text-sky; }
+  .chip-loss { @apply chip bg-loss-100 text-loss; }
+
+  .badge-win  { @apply bg-green-100 text-green-600 border border-green-500/30; }
+  .badge-draw { @apply bg-sky-100 text-sky border border-sky/30; }
+  .badge-loss { @apply bg-loss-100 text-loss border border-loss/30; }
+
+  .field-label { @apply block text-xs font-heading font-semibold uppercase tracking-wide text-pitch-700 mb-1; }
+  .field-input {
+    @apply w-full rounded-md border border-pitch-700/20 bg-white px-3 py-2 text-sm text-ink
+           focus:border-green focus:ring-1 focus:ring-green outline-none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}

@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Clean API URLs: the frontend calls /api/... instead of the raw
+# /.netlify/functions/... path.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# SPA fallback so a direct visit/refresh on /news/:slug doesn't 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
