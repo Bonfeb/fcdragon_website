@@ -6,8 +6,12 @@
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
+<<<<<<< HEAD
 # Explicit per-function redirects (instead of a single /api/* wildcard) to
 # rule out any splat-matching quirk while debugging.
+=======
+# /.netlify/functions/... path.
+>>>>>>> 636999ed1e624dedee97e44fc79222e64c45b3d2
 [[redirects]]
   from = "/api/login"
   to = "/.netlify/functions/login"
