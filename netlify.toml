@@ -1,12 +1,11 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  functions = "netlify/functions"
 
 [functions]
+  directory = "netlify/functions"
   node_bundler = "esbuild"
 
-# Clean API URLs: the frontend calls /api/... instead of the raw
 # /.netlify/functions/... path.
 [[redirects]]
   from = "/api/*"
