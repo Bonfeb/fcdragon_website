@@ -1,17 +1,30 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  functions = "netlify/functions"
 
 [functions]
+  directory = "netlify/functions"
   node_bundler = "esbuild"
 
-# Clean API URLs: the frontend calls /api/... instead of the raw
-# /.netlify/functions/... path.
+# Explicit per-function redirects (instead of a single /api/* wildcard) to
+# rule out any splat-matching quirk while debugging.
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/api/login"
+  to = "/.netlify/functions/login"
   status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/upload"
+  to = "/.netlify/functions/upload"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/content/*"
+  to = "/.netlify/functions/content/:splat"
+  status = 200
+  force = true
 
 # SPA fallback so a direct visit/refresh on /news/:slug doesn't 404.
 [[redirects]]
