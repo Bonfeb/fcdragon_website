@@ -1,5 +1,16 @@
 [
   {
+    "id": 1787398531802,
+    "full_name": "Nickson Mzungu",
+    "jersey_number": 8,
+    "position": "Midfielder",
+    "date_of_birth": "2006-06-06",
+    "nationality": "Kenyan",
+    "bio": "",
+    "is_active": true,
+    "photo_url": ""
+  },
+  {
     "id": 1787398448430,
     "full_name": "Alex Sirya",
     "jersey_number": 7,
