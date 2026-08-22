@@ -1,5 +1,16 @@
 [
   {
+    "id": 1787398319204,
+    "full_name": "Jilani Kuchacha",
+    "jersey_number": 1,
+    "position": "Goalkeeper",
+    "date_of_birth": "2003-11-20",
+    "nationality": "Kenyan",
+    "bio": "",
+    "is_active": true,
+    "photo_url": ""
+  },
+  {
     "id": 1787398256568,
     "full_name": "Gipson Mbundi",
     "jersey_number": 4,
