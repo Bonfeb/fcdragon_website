@@ -1,5 +1,12 @@
 [
   {
+    "id": 1787397874104,
+    "name": "Chironda Super Cup",
+    "season": "August 2026",
+    "description": "August Holiday Tournament organised by Mr Chironda to keep Mwarakaya Wards youths and all football lovers busy istead of idle sitting at home.",
+    "is_active": true
+  },
+  {
     "id": 1001,
     "name": "Kilifi South Sub-County League",
     "season": "2026",
