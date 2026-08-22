@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": 1787397232151,
+    "full_name": "Mathias Mwanje",
+    "jersey_number": 10,
+    "position": "Midfielder",
+    "date_of_birth": "2000-05-22",
+    "nationality": "Kenyan",
+    "bio": "",
+    "is_active": true,
+    "photo_url": "https://cdn.jsdelivr.net/gh/Bonfeb/fcdragon_website@main/content/images/players/1787397210039-b1ebw2.jpeg"
+  }
+]
