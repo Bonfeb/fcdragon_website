@@ -11,16 +11,16 @@
   },
   {
     "id": 2000,
-    "opponent": "Kilifi Stars",
+    "opponent": "Blackstone FC",
     "competition_id": 1001,
-    "kickoff": "2026-08-03T15:00:00.000Z",
-    "venue_type": "away",
-    "venue_name": "Kilifi Township Grounds",
+    "kickoff": "2026-08-21T15:00:00.000Z",
+    "venue_type": "home",
+    "venue_name": "Gandini-Chonyi Primary",
     "notes": "",
     "result": {
-      "dragon_fc_score": 2,
-      "opponent_score": 1,
-      "outcome": "win",
+      "dragon_fc_score": 0,
+      "opponent_score": 0,
+      "outcome": "draw",
       "scorers": "Kai 12', Baraka 60'",
       "match_report": ""
     }
