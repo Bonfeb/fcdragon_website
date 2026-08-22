@@ -1,5 +1,16 @@
 [
   {
+    "id": 1787398256568,
+    "full_name": "Gipson Mbundi",
+    "jersey_number": 4,
+    "position": "Defender",
+    "date_of_birth": "2001-07-11",
+    "nationality": "Kenyan",
+    "bio": "",
+    "is_active": true,
+    "photo_url": ""
+  },
+  {
     "id": 1787397232151,
     "full_name": "Mathias Mwanje",
     "jersey_number": 10,
