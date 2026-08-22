@@ -1,5 +1,16 @@
 [
   {
+    "id": 1787398448430,
+    "full_name": "Alex Sirya",
+    "jersey_number": 7,
+    "position": "Forward",
+    "date_of_birth": "2001-07-10",
+    "nationality": "Kenyan",
+    "bio": "",
+    "is_active": true,
+    "photo_url": ""
+  },
+  {
     "id": 1787398319204,
     "full_name": "Jilani Kuchacha",
     "jersey_number": 1,
